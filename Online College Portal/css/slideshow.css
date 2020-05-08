@@ -1,0 +1,25 @@
+
+.slider {
+	width: auto;
+	margin: 2em auto;
+	
+}
+
+.slider-wrapper {
+	width: 100%;
+	height: 400px;
+	position: relative;
+}
+
+.slide {
+	float: left;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+	transition: opacity 1s linear;
+}
+
+.slider-wrapper > .slide:first-child {
+	opacity: 1;
+}

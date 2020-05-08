@@ -1,0 +1,21 @@
+****Online College Portal Database Mini Project Report****
+
+Code-Editor used: Visual Studio Code.
+
+HTTP Server used: XAMPP.
+
+
+
+Requirements for running the code:
+
+1. The Host System should have a support of HTML5, CSS, JS.
+2. The Host System should have an active Internet Connection.
+3. The Host System should have a support of MYSQLI.
+
+
+General Instruction to run the code:
+
+1. Setup XAMPP and VSCode in the Host system and download all the required Extensions.
+2. Create the Database of name "finalproj".
+3. Import the SQL File in the database.
+4. Open the Project Folder using VSCode and run the code using "PHP Server".

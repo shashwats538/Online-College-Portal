@@ -1,0 +1,49 @@
+.center {
+    display: block;
+    border: 2px solid black;
+    height: 125px;
+    width: 350px;
+    margin-left: 37%;
+    }
+    
+    .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+    border: solid #fff 1px;
+    }
+    
+    .navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    border: solid #fff 1px;
+    }
+    
+    .navbar a.right {
+    float: right;
+    }
+    
+    /* Change color on hover */
+    .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+    }
+    
+    /* Active/current link */
+    .navbar a.active {
+    background-color: #666;
+    color: white;
+    }
+
+    .sign{
+        width: 1350px;
+        margin: 0 auto;
+        position: absolute;
+        border: 2px solid rgb(255, 255, 255);
+    }
